@@ -1,0 +1,34 @@
+{
+  "name": "demo-matrixeve",
+  "description": "Messaging Demos",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "private": "true",
+  "tags": [],
+  "version": "0.0.0",
+  "main": "lib/server.js",
+  "engines": {
+    "node": ">= 0.4.x < 0.7.0"
+  },
+  "dependencies": {
+    "config": "0.4.x",
+    "debug": "*",
+    "express": "2.5.x",
+    "ws": "0.4.x"
+  },
+  "devDependencies": {
+    "stylus": "*",
+    "nib": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DamonOehlman/messaging-demos.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DamonOehlman/messaging-server/issues"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "contributors": [],
+  "optionalDependencies": {}
+}

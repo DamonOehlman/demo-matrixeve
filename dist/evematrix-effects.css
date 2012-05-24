@@ -1,0 +1,17 @@
+body {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+.matrix {
+  font-size: 2.4em;
+  font-weight: bold;
+  -webkit-transition: all linear 1.5s;
+  -moz-transition: all linear 1.5s;
+  -o-transition: all linear 1.5s;
+  -ms-transition: all linear 1.5s;
+  transition: all linear 1.5s;
+}
+.mytext {
+  color: #0f0;
+}
