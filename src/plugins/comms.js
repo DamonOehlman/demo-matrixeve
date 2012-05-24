@@ -35,5 +35,3 @@ socket.onmessage = function(evt) {
     // trigger even
     eve.apply(eve, [args[0], socket].concat(args.slice(1)));
 };
-
-console.log(socket);
